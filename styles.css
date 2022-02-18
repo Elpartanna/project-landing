@@ -108,9 +108,22 @@ a:active {
   flex-grow: 0;
   flex-shrink: 1;
   flex-wrap: wrap;
-  flex-basis: auto;
+  flex-basis: 1;
   align-items: flex-start;
   justify-content: flex-start;
+}
+p {
+  color: #e5e7eb;
+  font-family: "Hero", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: 2px solid #3882f6;
+  border-radius: 4px;
+  font-weight: bold;
 }
 .image {
   width: 400px;
@@ -119,9 +132,10 @@ a:active {
   display: flex;
   flex-grow: 0;
   flex-shrink: 1;
-  flex-basis: auto;
+  flex-basis: 1;
   align-items: center;
   justify-content: center;
+  border-radius: 4px;
 }
 
 .three {
