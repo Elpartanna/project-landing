@@ -1,0 +1,243 @@
+* {
+  font-family: "Hero", "Arial", Arial, sans-serif;
+}
+
+.total {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(252, 236, 15);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  border: none;
+}
+
+.one {
+  width: 100%;
+  height: 60px;
+  background-color: #1f2937;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.logo {
+  width: 400px;
+  height: 20px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 24px;
+  font-weight: bold;
+}
+.links {
+  width: 400px;
+  height: 20px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 18px;
+  gap: 10px;
+}
+
+a:link {
+  color: #f9faf8;
+  font-family: "Hero", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+a:visited {
+  color: #a8aaa5;
+  font-family: "Hero", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+a:hover {
+  color: #f9faf8;
+  font-family: "Hero", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:active {
+  color: #f9faf8;
+  font-family: "Hero", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.two {
+  width: 100%;
+  height: 300px;
+  background-color: #1f2937;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.awesome {
+  width: 400px;
+  height: 200px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-family: "Hero", Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image {
+  width: 400px;
+  height: 200px;
+  background-color: #949597;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.three {
+  width: 100%;
+  height: 300px;
+  background-color: #f9faf8;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.info {
+  width: 300px;
+  height: 50px;
+  background-color: #f9faf8;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: center;
+}
+.boxes {
+  width: 600px;
+  height: 100px;
+  background-color: #f9faf8;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+.box {
+  border: solid #3882f6 2px;
+  width: 100px;
+  height: 75px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.four {
+  width: 100%;
+  height: 300px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.five {
+  width: 100%;
+  height: 300px;
+  background-color: #f9faf8;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.signup {
+  width: 40px;
+  height: 20px;
+  background-color: #f9faf8;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: center;
+}
+.action {
+  width: 40px;
+  height: 20px;
+  background-color: #3882f6;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  width: 40px;
+  height: 20px;
+  background-color: #3882f6;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.six {
+  width: 100%;
+  height: 60px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
